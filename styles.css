@@ -1,0 +1,152 @@
+body {
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.link--gray {
+    color: #70757a;
+    text-decoration: none;
+}
+
+.link--gray:hover {
+    text-decoration: underline;
+}
+
+.app-navbar {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin: 0.5em 0 0 0;
+}
+
+.app-navbar__item {
+    margin: 0 0.5em 0 0.5em;
+    font-size: 0.8em;
+}
+
+.app-navbar__item--link {
+    color: black;
+    text-decoration: none;
+}
+
+.app-navbar__item--link:hover {
+    text-decoration: underline;
+}
+
+.app-navbar__item--image {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0.5em 0 0.5em;
+    font-size: 0.8em;
+}
+
+.app-navbar__item--image:hover {
+    border-radius: 50%;
+    background-color: #e9dede;
+    cursor: pointer;
+}
+
+.app-navbar__item--image__picture {
+    width: 25px;
+    height: 25px;
+}
+
+.app-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+
+.app-body__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1em 0 0 0;
+    width: 50vw;
+}
+
+.app-body__form__search {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    position: relative;
+}
+
+.app-body__form__search--searchbar {
+    border: none;
+    border: solid 1px #ccc;
+    border-radius: 20px;
+    margin: 0 0 1em 0;
+    padding: 0 2.5em 0 2.5em;
+    width: 500px;
+    height: 36px;
+}
+
+.app-body__form__buttons {
+    margin: 1em 0 1em 0;
+}
+
+.app-body__form__buttons__button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    height: 40px;
+    width: 140px;
+    cursor: pointer;
+}
+
+.app-body__form__search__icon--search {
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 12.5px;
+    left: 5%;
+}
+
+.app-body__form__search__icon--keyboard {
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 12.5px;
+    right: 5%;
+}
+
+.app-body__form__text {
+    font-size: 0.8em;
+}
+
+.app-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.app-footer__row {
+    width: 100%;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #dadce0;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.app-footer__row__text {
+    margin: 0 0 0 1em;
+    color: #70757a;
+}

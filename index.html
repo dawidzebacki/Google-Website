@@ -1,12 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="./styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google</title>
 </head>
+
 <body>
-    
+    <navbar class="app-navbar">
+        <span class="app-navbar__item"><a class="app-navbar__item--link" href="https://www.gmail.com/">Gmail</a></span>
+        <span class="app-navbar__item"><a class="app-navbar__item--link"
+                href="https://www.google.pl/imghp?hl=pl&ogbl">Grafika</a></span>
+        <span class="app-navbar__item--image"><img class="app-navbar__item--image__picture"
+                src="./assets/9dots.png" /></span>
+        <span class="app-navbar__item--image"><img class="app-navbar__item--image__picture"
+                src="./assets/google-pic.png" /></span>
+    </navbar>
+
+    <main class="app-body">
+
+        <image src="./assets/google-logo.png" />
+
+        <form class="app-body__form">
+
+            <div class="app-body__form__search">
+                <input class="app-body__form__search--searchbar" type="text" id="fname" name="fname">
+                <div>
+                    <img class="app-body__form__search__icon--search" src="./assets/search.png" />
+                    <img class="app-body__form__search__icon--keyboard" src="./assets/keyboard-key.png" />
+                </div>
+            </div>
+
+
+
+            <div class="app-body__form__buttons">
+                <input class="app-body__form__buttons__button" type="submit" value="Szukaj w Google">
+                <input class="app-body__form__buttons__button" type="submit" value="Szczęśliwy traf">
+            </div>
+
+            <div>
+                <p class="app-body__form__text">Korzystaj z Google w tych językach: <a class="link" href="https://www.google.com/">English</a></p>
+            </div>
+
+        </form>
+
+    </main>
+
+    <footer class="app-footer">
+
+        <div class="app-footer__row">
+            <span class="app-footer__row__text">Polska</span>
+        </div>
+
+        <div class="app-footer__row">
+            <span class="app-footer__row__text"><a class="link--gray" href="https://www.google.com/">O nas</a></span>
+            <span class="app-footer__row__text"><a class="link--gray" href="https://www.google.com/">Reklamuj się</a></span>
+            <span class="app-footer__row__text"><a class="link--gray" href="https://www.google.com/">Dla firm</a></span>
+            <span class="app-footer__row__text"><a class="link--gray" href="https://www.google.com/">Jak działa wyszukiwarka</a></span>
+        </div>
+
+    </footer>
 </body>
+
 </html>
